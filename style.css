@@ -1,0 +1,125 @@
+body{
+    background: orange;
+}
+.top{
+    background: #BC5853;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+.top a:link,.top a:visited{
+    color: white;
+    text-decoration: none;
+}
+.top a:hover{
+    text-decoration:underline;
+}
+.toparea{
+    background:#F2C38B;
+    padding:50px 0 ;
+    text-align:center;
+}
+.toparea img{
+    width:110px;
+}
+.toparea h1{
+    color: #74353F;
+    font-weight:bold ;
+}
+.slidearea{
+    background: #BC5853;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+.principlearea{
+    background:#FFFFFF;
+    padding:50px 0 ;
+    
+}
+.principlearea p{
+    text-align: justify;
+}
+.tright{
+    text-align: right !important;
+}
+.footerarea{
+    background:#1B1B1B ;
+    color:white;
+    padding:40px 0 ;
+}
+.footerarea p{
+    color:#BA976E;   
+}
+.footerarea p a{
+    color:#915B41;
+}
+.footerarea ul{
+    color:#915B41;
+    
+}
+.footerarea ul a{
+    color:#915B41;
+}
+.footerarea hr{
+     
+    border: 0;
+    /* border-top: 1px solid #8c8c8c; */
+     border-bottom: 1px solid #fff; 
+      text-align:center;
+}
+.no-bullets{
+    list-style-type: none;
+   
+}
+.joinbtn{
+    cursor: pointer;
+}
+.joinbtn div{
+   position: relative;
+   display: inline-block;
+   color:#915B41;
+   text-transform: uppercase;
+   animation:animate 1s ease-in-out infinite;
+}
+.footerarea ul li{
+    transition: all 2s;
+}
+.footerarea ul li a:link, .footerarea ul li a:visited{
+    text-decoration: none;
+}
+.footerarea ul li:hover{
+    transform:translateX(10px);
+}
+.kline{
+    width:100%;
+    height:1px;
+    background: linear-gradient(to right, transparent, #FFF, transparent);
+}
+
+.leftarea{
+    /* background:#D8CECA ; */
+    background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg");
+    background-size: cover;
+
+    padding:75px 0 ;
+}
+.box{
+    margin:10px;
+    padding:30px;
+    background:#ffff;
+    text-align: center;
+}
+.box img{
+    width:100%;
+    transition:all 4s;
+}
+.box img:hover{
+    transform: rotate(360deg);
+}
+.box h4{
+    margin-top:20px;
+    /* font-size: 99%; */
+    font-weight: bold;
+}
+
